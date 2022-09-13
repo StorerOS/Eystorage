@@ -1,0 +1,18 @@
+name: 
+  MyProfile: 我的账户
+  AddressBook: 地址簿
+  UserInfoIndex: 用户信息
+  Notification: 通知
+  Configuration: 通知配置
+  NotificationList: 通知列表
+  OpenAPI: 开放平台
+  Query: 查询
+  Home: 首页
+  BindCheckoutEmail: 检查绑定邮箱
+  BindEmail: 绑定邮箱
+  SIGNIN: 登录
+  ContactUs: 联系我们
+  Register: 注册
+  SetEmail: 设置邮箱
+  SetPassword: 设置密码
+  Verify: 验证

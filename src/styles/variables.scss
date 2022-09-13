@@ -1,0 +1,138 @@
+$colorPrimary: #2BD8C7;
+$colorDanger: #FF4D4F;
+$colorSuccess: #52C41A;
+
+// text color
+$colorTextHeavy: #141414;
+$colorTextPrimary: #333333;
+$colorTextLight: #999999;
+
+
+$borderColorBase: #DCDFE6;
+$borderColorLight: #E4E7ED;
+$borderColorLightweight: #e9e9eb;
+
+
+$backgroundColorLight: #f4f4f5;
+$backgroundColorlighter: #909399;
+
+$colorTextPrimary: #303133;
+$colorTextRegular: #606266;
+$colorTextSecondary: #909399;
+$colorTextPlaceholder: #C0C4CC;
+
+$colorPrimaryHover: #66b1ff;
+
+// border color
+$borderColorPrimary: #77D0FF;
+$borderColorLight: #F0F0F0;
+
+$fontLineHeightPrimary: 24px;
+$fontLineHeightSecondary: 12px;
+
+$backgroundColorPrimary: #E0F3FF;
+$backgroundColorLight: #999999;
+$activeBackgroundColor: #F8FCFE;
+
+
+// font weight
+$fontWeightMedium: 400;
+$fontWeightPrimary: 500;
+$fontWeightHeavy: bold;
+$fontWeightTopHeavy: 800;
+
+// font size
+$fontSizeExtraSmall: 12px;
+$fontSizeLowMedium: 14px;
+$fontSizeMedium: 16px;
+$fontSizeLarge: 18px;
+$fontSizeCeilLarge: 20px;
+$fontSizeCeilVeryLarge: 22px;
+$fontSizeVeryLarge: 24px;
+
+// border radius
+$borderRadiusSpecialSmall: 2px;
+$borderRadiusSmall: 4px;
+$borderRadiusTopSmall: 5px;
+$borderRadiusBase: 6px;
+$borderRadiusMedium: 10px;
+$borderRadiusLarge: 12px;
+
+$normalFontFamilyType: SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$regularFontFamilyType: SourceHanSansCN-Regular, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$mediumFontFamilyType: SourceHanSansCN-Medium, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$boldFontFamilyType: SourceHanSansCN-Bold, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$HeavyFontFamilyType: SourceHanSansCN-Heavy, SourceHanSansCN-Normal, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+
+
+$layoutContentWidth: 1340px;
+
+// v2
+$bodyBackgroundColor:#F2F9F8;
+
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#0079fe;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+$menuTextColor:#333333;
+$menuActiveText:#0079fe;
+
+$menuBg:#304156;
+$menuHover:#263445;
+$subMenuBg:transparent;
+$subMenuHover:#001528;
+
+$sideBarWidth: 240px;
+$sideBarBackgroundColor:#FFFFFF;
+
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+// header
+$headerHeight: 60px;
+$headerBackgroundColor:#FFFFFF;
+$headerIconSize:18px;
+$footerHeight: 50px;
+
+
+
+
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  themeColor: $colorPrimary;
+  colorTextRegular: $colorTextRegular;
+  colorTextPrimary: $colorTextPrimary;
+  colorTextSecondary: $colorTextSecondary;
+  colorTextPlaceholder: $colorTextPlaceholder;
+  colorPrimaryHover: $colorPrimaryHover;
+  colorDanger: $colorDanger;
+  colorSuccess: $colorSuccess;
+  fontSizeExtraSmall: $fontSizeExtraSmall;
+  fontSizeLarge: $fontSizeLarge;
+  fontSizeMedium: $fontSizeMedium;
+  borderColorBase: $borderColorBase;
+  borderColorLight: $borderColorLight;
+  fontLineHeightPrimary: $fontLineHeightPrimary;
+  fontLineHeightSecondary: $fontLineHeightSecondary;
+  backgroundColorLight: $backgroundColorLight;
+  backgroundColorlighter: $backgroundColorlighter;
+  borderColorLightweight: $borderColorLightweight;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  headerHeight: $headerHeight;
+  footerHeight: $footerHeight;
+}
+

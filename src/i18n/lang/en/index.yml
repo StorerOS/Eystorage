@@ -1,0 +1,239 @@
+common:
+  title: Eystorage
+  searchAddress: Search address
+  DASHBOARD: DASHBOARD
+  SIGNIN: SIGN IN
+  Submit: Submit
+  Cancel: Cancel
+  Confirm: Confirm
+  CopySuceessfull: copy successfull
+  FollowSuccessfull: Follow Successfull
+
+footer:
+  signUpTips: Sign up for free using your email address.
+  resources: Resources
+  discord: Discord
+  docs: DOCS
+  signUp: SIGN UP
+  connatUs: connat us
+
+home:
+  canDo: In the past, it wasn’t always easy to store data on a decentralized network, until EyStorages came along. Eystorage focuses on providing secure, reliable, and convenient Web3 data storage services.
+
+  whatIsT: What is Eystorage
+  whatIsM: Our mission is to help you manage your data securely, reliably, and conveniently.
+
+  whyChooseUsT: Why choose us
+  buildT: Build it yourself
+  buildM1: 1.Storing data takes up a lot of disk space, which causes us to spend a lot of time thinking about whether the data is worth storing when we store files.
+  buildM2: 2.At the same time, damaged disks are difficult to repair, and it costs a lot of money to repair. Recovery does not guarantee that data is not lost.
+  buildM3: 3.If you use a centralized product to store data, your data security will not be guaranteed when network or hardware problems occur with the centralized service provider.
+  buildM4: 1.Eystorage has a huge storage space, enough to record ever minute of your life.
+  buildM5: 2.Eystorage uses IPFS, a distributed storage protocol that allows you to download your stored data over the network even if the central server is withdrawn.
+  buildM6: 3.Eystorage has a large number of decentralized nodes, as long as your network is not faulty, you can easily download your stored data.
+
+  ourService: Our service
+  ourServiceM1: The most convenient decentralized file storage service.
+  ourServiceM2: Eystorage uses the IPFS protocol and encryption algorithm to protect your data from tampering and malicious deletion.
+  ourServiceM3: The Eyquery Network will be the most open, performant, reliable, and scalable data service for dApps.
+  SignUpM: Sign up for free using your email address.
+
+SwitchLogin:
+  Title: Please select a sign in method
+  WalletConnect: Wallet Connect
+  EMAIL: Email
+Login:
+  GetStartedforFree: Get Started for Free
+  EMAIL: EMAIL
+  PASSWORD: PASSWORD
+  LockTips: Your password was incorrect.After entering 4 times, the account will be locked for 2 hours.
+  UnLockTips:
+  SIGN IN: SIGN IN
+
+Profile:
+  Followers: Followers
+  NetWorth: Net Worth
+  ignore: ignore
+  follow: follow
+  Assets: Assets
+  History: History
+
+AssetsTB:
+  Token: Token
+  Price: Price
+  Quantities: Quantities
+  Amount: Amount
+Files:
+  FilesList: Files List
+  UploadFile: Upload File
+FileTB:
+  Name: Name
+  Size: Size
+  CID: CID
+  Time: Upload Time
+  Operate: Operate
+  Download: Download
+  Delete: Delete
+Address:
+  AddressList: Address List
+  Address: Address
+  NetWorth: Net Worth
+  Followers: Followers
+  AddTime: Add Time
+  Operate: Operate
+  Ignore: Ignore
+
+NotificationConfigura:
+  QuotaStatistics: Quota Statistics
+  TotalNumberNotifications: Total number of configurable notifications
+  NumberOfRemaining: Number of configurable notifications remaining
+  NumberOfUsed: Number of configuration notifications used
+  NotificationConfiguration: Notification Configuration
+  AddConfiguration: Add Configuration
+  WranTips: The warning value cannot be less than zero
+
+RulesType:
+  BalanceChange: Balance change
+  BalanceIsLessThan: Balance is less than
+  BalanceIsGreaterThan: Balance is greater than
+  BalanceIsLessThanOrEqualTo: Balance is less than or equal to
+  BalanceGreaterThanOrEqualTo: Balance greater than or equal to
+  TransferGreaterThan: Transfer greater than
+  TransferGreaterThanOrEqualTo: Transfer greater than or equal to
+  ReceiptsGhan: Receipts greater than
+  ReceiptsGreaterThanOrEqualTo: Receipts greater than or equal to
+
+NotificationLog:
+  NotificationList: Notification List
+  Address: Address：
+  Token: Token：
+  Type: Type：
+  Reset: Reset
+  Search: Search
+  PleaseselectAddress: Please select Address
+  PleaseselectToken: Please select Token
+  PleaseselectType: Please select Type
+NotificationLogTB:
+  Chain: Chain
+  Token: Token
+  Time: Time
+  ReceivingAddress: Receiving Address
+  SendingAddress: Sending Address
+  Amount: Amount
+  NotificationContent: NotificationContent
+NotificationSelect:
+  All: All
+  TransferOutAlert: Transfer out alert
+  DivertToAlert: Divert to alert
+  BalanceChange: Balance change
+
+NotificationTB:
+  Address: Address
+  Chain: Chain
+  Token: Token
+  RuleContent: Rule Content
+  AddTime: AddTime
+  Operate: Operate
+  Edit: Edit
+  Delete: Delete
+  Type: Type
+
+NotificationDialog:
+  Pleaseselectanaddress: Please select an address
+  PleaseselectaChain: Please select a Chain
+  Pleaseselectatype: Please select a type
+  Pleaseselectatoken: Please select a token
+  Pleasefillinthethreshold: Please fill in the threshold
+  EditConfiguration: Edit Configuration
+  AddConfiguration: Add Configuration
+
+OpenAPI:
+  WelcomeDeveloper: Welcome Developer!
+  Accesskey: Access key
+  Secretkey: Secret key
+  copy: copy
+  ResetAKSK: Reset AK/SK
+  Ratelimits: Rate limits
+  APIDocuments: API Documents
+
+UserInfo:
+  AccountInformation: Account Information
+  DID: DID
+  ReplaceDID: Replace DID
+  Email: Email
+  ResetPassword: Reset Password
+  ReplaceEmail: Replace Email
+  NULLEmail: NULL Email
+  NULLDID: NULL DID
+  BindEmail: Bind Email
+  Avatar: Avatar
+  Replace: Replace
+  BasicSetting: Basic Setting
+  ExchangeRate: Exchange Rate
+  LogoutOfEybank: Logout Of Eystorage
+  LogoutTips: After logging out, the verification information for the current address will be deleted from your browser.
+  Logout: Logout
+  OperationLog: Operation Log
+  City: City
+  Time: Time
+  IP: IP
+  Operate: Operate
+
+UserInfoLogType:
+  Login: Login
+  ChangePassword: change Password
+  ChangeDID: change DID
+  ChangeEmail: change email
+  UnlockAccount: unlock account
+
+UserInfoChagePwd:
+  RecoverPassword: RECOVER PASSWORD
+  Tips: Click the RESET PASSWORD button and we'll send you a password recovery link.
+  TheVerificationCodeHasBeenSent: The verification code has been sent.
+
+UserInfoChageEmail:
+  ReplaceEmail: Replace Email
+  Tips: Please fill in the new email address, and we will send you the verification code for email change.
+  EMAIL: EMAIL
+  CONFIRM: CONFIRM
+
+FormSubmit:
+  BindEmail: Bind Email
+  CONFIRM: CONFIRM
+  Email: Email
+  SendEmailTips: Please fill in the email address, and we will send you the verification code for bind email.
+  EnterPasswordBinding: Enter the password and verification code tocomplete the Email binding.
+  VerificationCode: Verification Code
+  PASSWORD: PASSWORD
+  CONFIRMPASSWORD: CONFIRM PASSWORD
+  REPLACEEMAIL : REPLACE EMAIL
+  SetEmail: Set New Email
+  SetEmailSuccessful: Email set up successfully
+  SetNewPassword: Set New Password
+  RecoverYourPassword: Recover your password
+  EnterYourEmailAddress: Simply enter your email address below and we’ll send you a password recovery link.
+  RECOVERPASSWORD: RECOVER PASSWORD
+  ResetPasswordEmailSent: Reset password email sent.Please enter the mailbox to check and confirm.
+
+FormVaildMsg:
+  CorrectEmail: Please enter the correct email
+  EnterEmail: Please enter the email
+  EnterPassword: Please enter the password
+  EnterInvitationCode: Please enter the invitation code
+  PasswordToLong: Password must contain numbers and letters and be 8-32 characters long
+  PasswordInconsistent: The passwords you entered are inconsistent
+  EnterConfirmPassword: Please enter the confirm password
+  ConfirmBindEmailTips: Your account is bound to email address successfully.
+  PasswordRecoverySucceeded: Password recovery succeeded, please log in again
+
+
+AlertMsg:
+  Successfuloperation: Successful operation
+  CloseOperation: Close operation
+  EditSuccessful: Edit Successful
+  AddSuccessful: Add Successful
+  ModifyDIDSuccessfully: Modify DID Successfully
+  VerificationCodeMsg: Please log in to the email and check the verification code.
+  ContinueOpration: This operation will permanently delete the alarm, whether to continue?
+  Tips: Tips
+  SelectPicTypeTips: Please select an image in png or jpg format

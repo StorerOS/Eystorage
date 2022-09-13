@@ -1,0 +1,20 @@
+name: 
+  MyFile: My Files
+  MyProfile: My Profile
+  AddressBook: Address Book
+  UserInfoIndex: UserInfo Index
+  Notification: Notification
+  Configuration: Configuration
+  NotificationList: Notification List
+  OpenAPI: OpenAPI
+  Query: Query
+  Home: Home
+  BindCheckoutEmail: Bind Checkout Email
+  BindEmail: BindEmail
+  SIGNIN: SIGN IN
+  ContactUs: Contact Us
+  Register: Register
+  SetEmail: Set Email
+  SetPassword: Set password
+  Verify: Verify
+

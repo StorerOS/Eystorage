@@ -1,0 +1,76 @@
+.content {
+  &-container {
+    width: 600px;
+    padding: 70px 30px 40px;
+    background-color: white;
+    border-radius: $borderRadiusTopSmall;
+    // box-shadow: 0px 3px 12px 1px rgba(52, 208, 255, 0.55), inset 0px 3px 6px 1px rgba(52, 208, 255, 0.24);
+    margin: 0 auto;
+    position: relative;
+  }
+  &-main-container {
+    position: relative;
+    z-index: 2;
+  }
+  &__title {
+    @include font-size-very-large;
+    @include HeavyFontFamily;
+    text-align: center;
+  }
+  &__info{
+    margin:60px 0 0;
+    font-size: 20px;
+    color: #333333;
+  }
+  &__main {
+    margin-top: 30px;
+  }
+}
+.bg-decoration {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  .bg_left_top{
+    position: absolute;
+    top: -300px;
+    left: -200px;
+    width: 602px;
+    height: 680px;
+  }
+  .bg_right_bottom{
+    position: absolute;
+    right: -200px;
+    bottom:-300px;
+    width: 602px;
+    height: 680px;
+  }
+}
+.form-container {
+  .label-container {
+    display: flex;
+    align-items: center;
+    .svg-icon {
+      font-size: $fontSizeMedium;
+    }
+    span {
+      @include font-size-ceil-large;
+      @include mediumFontFamily;
+      margin-left: 17px;
+      color: $colorTextPrimary;
+    }
+  }
+  ::v-deep.el-input {
+    margin-top: 14px;
+    .el-input__inner {
+      height: 50px;
+      border-radius: $borderRadiusMedium;
+    }
+  }
+}
+.operation-btn {
+  width: 100%;
+  margin-top: 40px;
+}

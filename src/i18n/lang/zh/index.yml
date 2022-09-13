@@ -1,0 +1,234 @@
+common:
+  title: 易理
+  searchAddress: 请输入待查找地址
+  DASHBOARD: 仪表板
+  SIGNIN: 登录
+  Submit: 提交
+  Cancel: 取消
+  Confirm: 确定
+  CopySuceessfull: 复制成功
+  FollowSuccessfull: 关注成功
+
+footer:
+  signUpTips: 使用你的电子邮件地址免费注册。
+  resources: 相关信息
+  discord: Discord
+  docs: 开发者文档
+  signUp: 注册
+  connatUs: 联系我们
+
+home:
+  canDo: 为您提供最便捷的数字资产管理服务。可以帮助您实现数字资产的管理和复用，达到数字资产的有效利用、保存和增值的目的。
+
+  whatIsT: 易理的使命
+  whatIsM: 我们的使命是帮助您方便地管理数字资产，了解最新的市场状况。
+
+  whyChooseUsT: 易理的优势
+  buildT: 自行构建
+  buildM1: 1.由于分散的数字资产数据分布在数千个节点上，信息搜索效率极低。
+  buildM2: 2.当您在多个区块链网络中拥有数字资产时，将它们分开管理是非常麻烦的。
+  buildM3: 3.当你想向专业的区块链行业投资者学习时，了解他们的想法并不容易。
+  buildM4: 1.易理提供便捷的数据索引服务，降低您的工作成本。
+  buildM5: 2.易理将在您授权后，为您提供便捷的数字资产管理服务。
+  buildM6: 3.在专业数字资产投资者的允许下，易理将向您展示他们的建议。
+
+  ourService: 易理的服务
+  ourServiceM1: 便捷的数字资产管理服务。
+  ourServiceM2: 实时更新数字资产市场状况。
+  ourServiceM3: 最全面的数字化资质数据查询和索引服务。
+  SignUpM: 使用你的电子邮件地址免费注册。
+
+SwitchLogin:
+  Title: 请选择一种登录方法
+  WalletConnect: 钱包连接
+  EMAIL: 邮箱
+
+Login:
+  GetStartedforFree: 邮箱登录
+  EMAIL: 邮箱
+  PASSWORD: 密码
+  LockTips: Your password was incorrect.After entering 4 times, the account will be locked for 2 hours.
+  UnLockTips:
+  SIGN IN: 登录
+
+Profile:
+  Followers: 关注者
+  NetWorth: 总资产
+  ignore: 已关注
+  follow: 关注
+  Assets: 资产
+  History: 历史交易
+
+AssetsTB:
+  Token: 代币
+  Price: 单价
+  Quantities: 持有数
+  Amount: 总价
+  
+Files:
+  FilesList: 文件列表
+
+Address:
+  AddressList: 地址列表
+  Address: 地址
+  NetWorth: 总资产
+  Followers: 被关注数
+  AddTime: 关注时间
+  Operate: 操作
+  Ignore: 取消关注
+
+NotificationConfigura:
+  QuotaStatistics: 配额统计
+  TotalNumberNotifications: 可配置的通知总数
+  NumberOfRemaining: 剩余可配置通知的数量
+  NumberOfUsed: 已使用的配置通知数
+  NotificationConfiguration: 通知配置
+  AddConfiguration: 新增通知
+  WranTips: 预警值不能小于零
+RulesType:
+  BalanceChange: 余额变动
+  BalanceIsLessThan: 余额小于
+  BalanceIsGreaterThan: 余额大于
+  BalanceIsLessThanOrEqualTo: 余额小于等于
+  BalanceGreaterThanOrEqualTo: 余额大于等于
+  TransferGreaterThan: 转账大于
+  TransferGreaterThanOrEqualTo: 转账大于等于
+  ReceiptsGhan: 收款大于
+  ReceiptsGreaterThanOrEqualTo: 收款大于等于
+
+NotificationLog:
+  NotificationList: 通知列表
+  Address: 地址：
+  Token: 代币：
+  Type: 类型：
+  Reset: 重置
+  Search: 查询
+  PleaseselectAddress: 请选择地址
+  PleaseselectToken: 请选择代币
+  PleaseselectType: 请选择类型
+
+NotificationLogTB:
+  Chain: 链
+  Token: 代币
+  Time: 通知时间
+  ReceivingAddress: 接收地址
+  SendingAddress: 发送地址
+  Amount: 总计
+  NotificationContent: 通知内容
+
+NotificationSelect:
+  All: 全部
+  TransferOutAlert: 转出告警
+  DivertToAlert: 转入告警
+  BalanceChange: 余额变动
+
+NotificationTB:
+  Address: 地址
+  Chain: 链
+  Token: 代币
+  RuleContent: 规则内容
+  AddTime: 创建时间
+  Operate: 操作
+  Edit: 编辑
+  Delete: 删除
+  Type: 类型
+
+NotificationDialog:
+  Pleaseselectanaddress:  请选择地址
+  PleaseselectaChain: 请选择链
+  Pleaseselectatype: 请选择类型
+  Pleaseselectatoken: 请选择代币
+  Pleasefillinthethreshold: 请输入阈值
+  EditConfiguration: 修改配置
+  AddConfiguration: 添加配置
+  
+OpenAPI:
+  WelcomeDeveloper: 欢迎您，开发者！
+  Accesskey: 访问码
+  Secretkey: 密钥码
+  copy: 复制
+  ResetAKSK: 重置访问/密钥码
+  Ratelimits: 每秒请求数上限
+  APIDocuments: 开发者文档
+
+UserInfo:
+  AccountInformation:  个人中心
+  DID: DID
+  ReplaceDID: 更换DID
+  Email: 邮件
+  ResetPassword: 修改密码
+  ReplaceEmail: 更换邮箱
+  NULLEmail: 未绑定邮箱
+  NULLDID: 未绑定DID
+  BindEmail: 绑定邮箱
+  Avatar: 头像
+  Replace: 替换头像
+  BasicSetting: 基础设置
+  ExchangeRate: 汇率
+  LogoutOfEybank: 退出登录
+  LogoutTips: 退出登录后，未保障您的账号安全，当前地址的验证信息将从浏览器中清除。
+  Logout: 登出
+  OperationLog: 操作日志
+  City: 城市
+  Time: 操作时间
+  IP: IP
+  Operate: 操作
+
+UserInfoLogType:
+  Login: 登录
+  ChangePassword: 修改密码
+  ChangeDID: 更改DID
+  ChangeEmail: 更改邮箱
+  UnlockAccount: 解锁账号
+
+UserInfoChagePwd:
+  RecoverPassword: 找回密码
+  Tips: 点击重置密码按钮，我们会发送一个密码重置链接到您的邮箱。
+  TheVerificationCodeHasBeenSent: 验证码已发送
+
+UserInfoChageEmail:
+  ReplaceEmail: 更换邮箱
+  Tips: 请填写新的邮箱地址，我们将向您发送跟换邮箱验证码。
+  EMAIL: 邮箱
+  CONFIRM: 提交
+
+FormSubmit:
+  BindEmail: 绑定邮箱
+  CONFIRM: 提交
+  Email: 邮件
+  SendEmailTips: 请填写邮箱地址，我们会给您发送绑定邮箱的验证码。
+  EnterPasswordBinding: 输入密码和验证码，完成邮箱绑定。
+  VerificationCode: 验证码
+  PASSWORD: 密码
+  CONFIRMPASSWORD: 确认密码
+  REPLACEEMAIL : 替换邮件
+  SetEmail: 设置新邮件
+  SetEmailSuccessful: 邮箱设置成功
+  SetNewPassword: 设置新密码
+  RecoverYourPassword: 恢复你的密码
+  EnterYourEmailAddress: 只需在下方输入您的电子邮件地址，我们就会向您发送密码恢复链接。
+  RECOVERPASSWORD: 恢复密码
+  ResetPasswordEmailSent: 重设密码邮件已发送。请进入邮箱查看并确认。
+
+FormVaildMsg:
+  CorrectEmail: 请输入正确的邮箱
+  EnterEmail: 请输入邮箱
+  EnterPassword: 请输入密码
+  EnterInvitationCode: 请输入邀请码
+  PasswordToLong: 密码必须包含数字和字母，长度为 8-32 个字符
+  PasswordInconsistent: 您输入的密码不一致
+  EnterConfirmPassword: 请输入确认密码
+  ConfirmBindEmailTips: 您的账号绑定电子邮箱成功
+  PasswordRecoverySucceeded: Password recovery succeeded, please log in again
+
+
+AlertMsg:
+  Successfuloperation: 操作成功
+  CloseOperation: 取消操作
+  EditSuccessful: 编辑成功
+  AddSuccessful: 新增成功
+  ModifyDIDSuccessfully: 修改DID成功
+  VerificationCodeMsg: 请登录邮箱查看验证码。
+  ContinueOpration: 此操作将永久删除告警，是否继续?
+  Tips: 提示
+  SelectPicTypeTips: 请选择png或jpg格式的图片

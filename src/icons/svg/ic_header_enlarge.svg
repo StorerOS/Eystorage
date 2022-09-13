@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="屏幕放大" transform="translate(0)">
+    <g id="组_9" data-name="组 9" transform="translate(0)">
+      <g id="矩形_20" data-name="矩形 20" transform="translate(0 0)" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="6">
+        <rect width="22" height="22" rx="5" stroke="none"/>
+        <rect x="1" y="1" width="20" height="20" rx="4" fill="none"/>
+      </g>
+      <g id="组_7" data-name="组 7" transform="translate(13.533 4.23) rotate(45)">
+        <line id="直线_1" data-name="直线 1" y2="6.662" transform="translate(3.117 0.519)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2"/>
+        <g id="组_6" data-name="组 6" transform="translate(0 0)">
+          <line id="直线_2" data-name="直线 2" x1="3.117" y2="3.117" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2"/>
+          <line id="直线_3" data-name="直线 3" x2="3.117" y2="3.117" transform="translate(3.117)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="矩形_21" data-name="矩形 21" transform="translate(0 12)" fill="none" stroke="#333" stroke-width="2">
+        <rect width="10" height="10" rx="3" stroke="none"/>
+        <rect x="1" y="1" width="8" height="8" rx="2" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

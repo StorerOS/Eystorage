@@ -1,0 +1,253 @@
+button, input, optgroup, select, textarea {
+  font-family: $mediumFontFamilyType;
+}
+
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+// table
+.table-operation-container {
+  .cell {
+    text-align: center;
+  }
+}
+
+// form
+.el-dialog {
+  .el-form {
+    .el-form-item {
+      width: 100%;
+      display: flex;
+      .el-form-item__content {
+        line-height: $fontLineHeightPrimary;
+        flex: 1;
+        margin-left: 0!important;
+        > [class^="el-"]:first-of-type {
+          width: 100%;
+        }
+        .form-item-tips {
+          font-size: $fontSizeExtraSmall;
+          color: $colorTextLight;
+          line-height: $fontLineHeightPrimary;
+          display: block;
+        }
+      }
+    }
+  }
+}
+.el-form.el-form--inline {
+  .el-form-item {
+    width: 100%;
+    display: flex;
+    .el-form-item__content {
+      display: flex;
+      flex: 1;
+      > [class^="el-"]:first-of-type {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// el-table
+
+.customer-table th{
+  border:none;
+}
+.customer-table td,.customer-table th.is-leaf {
+  border:none;
+}
+// 表格最外边框
+.el-table--border, .el-table--group{
+  border: none;
+}
+// 头部边框
+.customer-table thead tr th.is-leaf{
+  border: 0px solid #EBEEF5;
+  border-right: none;
+}
+.customer-table thead tr th:nth-last-of-type(2){
+  border-right: 1px solid #EBEEF5;
+}
+// 表格最外层边框-底部边框
+.el-table--border::after, .el-table--group::after{
+  width: 0;
+}
+.customer-table::before{
+  width: 0;
+}
+.customer-table .el-table__fixed-right::before,.el-table__fixed::before{
+  width: 0;
+}
+// 表格有滚动时表格头边框
+.el-table--border th.gutter:last-of-type {
+    border: 1px solid #EBEEF5;  
+    border-left: none;
+}
+.el-table tbody tr:hover>td { 
+  background-color:rgba(9, 148, 134, 0.1)!important;
+}
+
+// link
+.el-link.el-link--default {
+  color: $colorTextPrimary;
+}
+
+// menu
+.el-menu--horizontal .el-menu--popup {
+  min-width: 350px!important;
+  .el-menu-item {
+    height: auto!important;
+    line-height: auto!important;
+    .menu-content {
+      @include mediumFontFamily;
+      color: $colorTextPrimary;
+      text-align: left;
+      padding: 20px 10px;
+      &__title {
+        @include font-size-medium;
+        position: relative;
+        .el-icon-arrow-right {
+          position: absolute;
+          right: -15px;
+          top: 50%;
+          transform: translate3d(0, -50%, 0);
+          display: flex;
+          align-items: center;
+        }
+      }
+      &__main {
+        @include font-size-low-medium;
+        margin-top: 20px;
+        color: $colorTextLight;
+      }
+    }
+    &.is-active {
+      .menu-content {
+        &__title {
+          color: $colorPrimary;
+        }
+      }
+    }
+  }
+}
+
+.el-table tbody tr:hover > td .el-button--text.el-button--default:hover{
+  background: rgba(9, 148, 134, 0.1);
+  padding:10px 20px;
+}
+
+@media only screen and (min-width:768px) {
+  .el-col-sm-4-8 {
+    width: 20%;
+  }
+  .el-col-sm-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-sm-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-sm-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .el-col-md-4-8 {
+    width: 20%;
+  }
+  .el-col-md-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-md-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-md-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .el-col-lg-4-8 {
+    width: 20%;
+  }
+  .el-col-lg-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-lg-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-lg-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width:1920px) {
+  .el-col-xl-4-8 {
+    width: 20%;
+  }
+  .el-col-xl-offset-4-8 {
+    margin-left: 20%;
+  }
+  .el-col-xl-pull-4-8 {
+    position: relative;
+    right: 20%;
+  }
+  .el-col-xl-push-4-8 {
+    position: relative;
+    left: 20%;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= webpackConfig.name %></title>
+    <link rel="preload" as="font" href="./fonts/SourceHanSansCN-Normal.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./fonts/SourceHanSansCN-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./fonts/SourceHanSansCN-Medium.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./fonts/SourceHanSansCN-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./fonts/SourceHanSansCN-Heavy.ttf" type="font/ttf" crossorigin="anonymous">
+    <style>
+      @font-face {
+        font-family: "SourceHanSansCN-Normal";
+        src: url("/fonts/SourceHanSansCN-Normal.ttf");
+        font-weight: 400;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: "SourceHanSansCN-Regular";
+        src: url("/fonts/SourceHanSansCN-Regular.ttf");
+        font-weight: 400;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: "SourceHanSansCN-Medium";
+        src: url("/fonts/SourceHanSansCN-Medium.ttf");
+        font-weight: 500;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: "SourceHanSansCN-Bold";
+        src: url("/fonts/SourceHanSansCN-Bold.ttf");
+        font-weight: bold;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: "SourceHanSansCN-Heavy";
+        src: url("/fonts/SourceHanSansCN-Bold.ttf");
+        font-weight: 800;
+        font-display: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= webpackConfig.name %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
